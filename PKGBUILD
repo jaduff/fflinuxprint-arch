@@ -18,5 +18,5 @@ package() {
         echo "unpacking deb"
         ar -x ${_packagename}.deb
         tar -xf data.tar.xz
-        cp -R ./usr/share "${pkgdir}/share"
+        cp -R ./usr/share "${pkgdir}/usr/share"
 }
